@@ -8,7 +8,7 @@ import numpy as np
 
 # TODO: Définissez vos fonctions ici (il en manque quelques unes)
 def linear_values() -> np.ndarray:
-    return np.array([])
+    return np.lins
 
 
 def coordinate_conversion(cartesian_coordinates: np.ndarray) -> np.ndarray:
