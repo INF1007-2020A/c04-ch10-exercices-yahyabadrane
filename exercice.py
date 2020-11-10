@@ -12,7 +12,7 @@ def linear_values() -> np.ndarray:
 
 
 def coordinate_conversion(cartesian_coordinates: np.ndarray) -> np.ndarray:
-    return [(np.sqrt(c[0]**2)) for c in cartesian_coordinates]
+    return [(np.sqrt(c[0]**2 + c[1]**2)) for c in cartesian_coordinates]
 
 
 def find_closest_index(values: np.ndarray, number: float) -> int:
